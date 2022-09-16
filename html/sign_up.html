@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="..\styles\sign_up_style.css">
+</head>
+
+<body>
+    <header>
+        <div id="header_container">
+            <a href="file:///C:/Users/vasya/Desktop/other/water%20app/index.html" id="app_name">AquaDelivery</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sign_up_container">
+            <select class="user_type" onchange="selectorChanges()">
+                <option value="" disabled selected>Тип пользователя</option>
+                <option value="user">Покупатель</option>
+                <option value="consumer">Производитель</option>
+                <option value="delivery_service">Служба доставки</option>
+            </select>
+            <input type="text" class="login text_field" id="login" placeholder="Логин">
+            <input type="text" class="password text_field" id="password" placeholder="Введите пароль">
+            <input type="text" class="password2 text_field" id="password2" placeholder="Повторите пароль">
+            <div class="button_container">
+                <button class="sign_up">Зарегистрироваться</button>
+            </div>
+        </div>
+    </div>
+    <script src="..\js\sign_up.js"></script>
+</body>
+
+</html>

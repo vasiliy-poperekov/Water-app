@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 90px;
+    background-color: #C5F4FF;
+}
+
+#header_container {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app_name {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.login_container {
+    max-width: 670px;
+    height: 340px;
+    background-color: #C5F4FF;
+    text-align: center;
+}
+
+.login {
+    width: 420px;
+    height: 30px;
+    border-color: transparent;
+    background-color: #C4C4C4;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.password {
+    width: 420px;
+    height: 30px;
+    border-color: transparent;
+    background-color: #C4C4C4;
+    margin-bottom: 40px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.button_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.log_in {
+    width: 190px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    border-color: transparent;
+    background-color: #C4C4C4;
+}

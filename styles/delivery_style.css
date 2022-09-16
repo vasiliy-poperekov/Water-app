@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #C5F4FF;
+}
+
+#header_container {
+    background-color: #C5F4FF;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#app_name {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #4E7CD7;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+}
+
+.header_item {
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.main_info_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.delivery_name {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.orders {
+    max-width: 890px;
+    background-color: #C4C4C4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 10px 0 10px;
+    margin-top: 20px;
+}
+
+.order {
+    max-width: 890px;
+    width: 100%;
+    height: 80px;
+    background-color: #C5F4FF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.employees {
+    max-width: 450px;
+    background-color: #C4C4C4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 10px 0 10px;
+    margin-top: 20px;
+}
+
+.oders_in_process {
+    max-width: 500px;
+    background-color: #C4C4C4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 10px 0 10px;
+    margin-top: 20px;
+}
+
+.employee {
+    max-width: 450px;
+    width: 100%;
+    height: 80px;
+    background-color: #C5F4FF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.item {
+    max-width: 500px;
+    width: 100%;
+    height: 80px;
+    background-color: #C5F4FF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.list_name {
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}

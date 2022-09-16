@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 90px;
+    background-color: #C5F4FF;
+}
+
+#header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+#app_name {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: #4E7CD7;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+}
+
+.header_item {
+    margin-right: 10px;
+}
+
+#auth_container {
+    width: 180px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+a {
+    margin: auto;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 240px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.product_cover-inner {
+    position: relative;
+    height: 270px;
+}
+
+.product_cover {
+    max-width: 100%;
+    height: 100%;
+}
+
+.product_cover-darkened {
+    border-radius: 10px;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.product_cover-darkened:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.product_info {
+    padding: 10px 0px;
+}
+
+.product_title {
+    font-size: 16px;
+}
+
+.product_price {
+    font-size: 14px;
+}
